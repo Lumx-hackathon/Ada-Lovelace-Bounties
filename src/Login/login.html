@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-info">
+            <div class="logo">
+                <img src="/assets/login/Logo_Ada_Transparente.png" alt="Logo">
+            </div>
+            <div class="title">PÓLENCHAIN</div>
+            <div class="slogan">Doar com propósito, economizar com impacto!</div>
+        </div>
+        <div class="login-form">
+            <div class="texto_login">Login Usuário</div>
+            <input type="text" placeholder="Usuário">
+            <input type="password" placeholder="Senha">
+            <button onclick="login()" class="login-btn">Entrar</button>
+            <button id="openPopupBtn">Garanta sua wallet</button>
+        </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="walletPopup" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid black;">
+        <h2>Wallet</h2>
+        <p>Wallet ID: <span id="walletId"></span></p>
+        <p>Wallet Address: <span id="walletAddress"></span></p>
+        <p>Balance: <span id="walletBalance"></span></p>
+        <button id="closePopupBtn">Close</button>
+    </div>
+
+    <!-- Script -->
+    <script src="../../back-end/api.js"></script>
+    <script>
+
+        function login () {
+          window.location.href = "../home/home.html"
+        }
+        // Adiciona um event listener para o botão de abrir o pop-up
+        document.getElementById('openPopupBtn').addEventListener('click', function() {
+            // Mostra o pop-up
+            document.getElementById('walletPopup').style.display = 'block';
+        });
+
+        // Event listener para fechar o pop-up quando o usuário clicar no botão "Close"
+        document.getElementById('closePopupBtn').addEventListener('click', function() {
+            // Esconde o pop-up
+            document.getElementById('walletPopup').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

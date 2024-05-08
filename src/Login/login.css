@@ -1,0 +1,112 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-info {
+    flex: 1;
+    background-color: #EDEDED; /* White background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+  }
+  
+  .login-form {
+    flex: 1;
+    background-color: #303030; /* Grey background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-form input[type="text"] {
+    margin-bottom: 15px; /* Ajusta a margem inferior para afastar o campo de e-mail */
+  }
+  
+  .login-form input[type="password"] {
+    margin-top: 15px; /* Ajusta a margem superior para afastar o campo de senha */
+    margin-bottom: 40px;
+  }  
+
+  .texto_login{
+    color: #EDEDED;
+    font-size: 40px;
+    font-family: Inter;
+    margin-bottom: 60px;
+  }
+  
+  .logo img {
+    width: 290px;
+    height: 240px;
+    margin-bottom: 200px;
+    margin-top: 10px;
+  }
+  
+  .title {
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 6px;
+    margin-top: -165px;
+    font-family: Myanmar Khyay;
+  }
+  
+  .slogan {
+    font-size: 26px;
+    color: #535353;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 450px; /* Adjusted width */
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    background: #EAC222;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: 250px; /* Match the input fields width */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .login-btn:hover {
+    background: #ffda48;
+  }
+
+  #openPopupBtn {
+    background: #EAC222;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: 250px; /* Match the input fields width */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  #openPopupBtn:hover {
+    background: #ffda48;
+  }
+  
+  

@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9; /* Grey background */
+  }
+
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: 100px;
+  }
+
+  .login-form input[type="text"] {
+    margin-bottom: 15px; /* Ajusta a margem inferior para afastar o campo de e-mail */
+  }
+  
+  .login-form input[type="password"] {
+    margin-top: 15px; /* Ajusta a margem superior para afastar o campo de senha */
+  }  
+
+  .texto_login{
+    color: #000;
+    font-size: 40px;
+    font-family: Arial;
+    margin-bottom: 200px;
+    text-align: left;
+    position: fixed;
+    bottom: 150px;
+  }
+  
+  .logo img {
+    position: fixed;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 200px;
+    margin-top: 10px;
+    left: 515px;
+    bottom: 200px;
+  }
+  
+  .title {
+    position: fixed;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 6px;
+    margin-top: -180px;
+    font-family: Myanmar Khyay;
+  }
+  
+
+  
+  input[type="usuario"] {
+    position: fixed;
+    width: 1025px; /* Adjusted width */
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    bottom: 275px;
+    
+  }
+  
+  input[type="password"] {
+    position: fixed;
+    width: 450px; /* Adjusted width */
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    bottom: 218px;
+    margin-left: 362.5px;
+  }
+
+  input[type="email"] {
+    position: fixed;
+    width: 350px; /* Adjusted width */
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    bottom: 218px;
+  }
+
+  input[type="porte"] {
+    position: fixed;
+    width: 200px; /* Adjusted width */
+    padding: 15px;
+    margin-bottom: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    bottom: 218px;
+    margin-left: 825px;
+  }
+
+  textarea#senha {
+    width: 1025px; /* largura desejada */
+    height: 100px; /* altura desejada */
+    padding: 15px;
+    /* margin-bottom: 16px; */
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 345px;
+    resize: none; /*Evita redimensionamento do textarea */
+    font-family: Arial;
+}
+
+
+  .login-btn {
+    background: #EAC222;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: 250px; /* Match the input fields width */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    position: fixed;
+    left: 500px;
+    bottom: 50px;
+  }
+  
+  .login-btn:hover {
+    background: #ffda48;
+  }
+  
+  .senha {
+    margin-top: 15px;
+  }

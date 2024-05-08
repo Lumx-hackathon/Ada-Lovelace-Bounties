@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doação</title>
+        <link rel="stylesheet" href="doacao.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="/assets/perfil/Ada_Branco.png" alt="Logo">
+                </div>
+                <ul>
+                    <li><a href="../home/home.html" >Home</a></li>
+                    <li class="home"><a href="../doação/doacao.html" class="home-a">Doação</a></li>
+                    <li><a href="../creditos/creditos.html">Créditos</a></li>
+                    <li><a href="../empresas/empresas.html">Empresa</a></li>
+                    <li><a href="../SaibaMais/SaibaMais.html">FAQ</a></li>
+                </ul>
+                <div class="profile">
+                    <img src="/assets/perfil/perfil (1) 1.png" alt="Perfil">
+                </div>
+            </nav>
+        </header>
+        <section>
+
+        <div class="tituloPagina">
+            <h1>Conheça as ONGs ativas e <br> selecione para qual deseja doar!</h1>
+        </div>
+
+        <div>
+                <div class="carrosselContainerAmbiente">
+                    <div class="divTituloCarrossel">
+                        <h3 class="tituloCarrossel">Ambiente</h3>
+                    </div>
+                    <div class="carrossel1 carrossel">
+                        <div class="elementoCarrosselDoacao1">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image1.png"></div>
+                            <div class="tituloONG">Ecotece</div>
+                            <div class="descrição">A Ecotece é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao1">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image2.png"></div>
+                            <div onclick="lixozerobtn()" class="tituloONG">Instituto Lixo Zero Brasil</div>
+                            <div class="descrição">A Instituto Lixo Zero Brasil é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao1">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image3.png"></div>
+                            <div class="tituloONG">Sustentarte</div>
+                            <div class="descrição">A Sustentarte é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao1">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image4.png"></div>
+                            <div class="tituloONG">Regeneração Global</div>
+                            <div class="descrição">A Regeneração Global é uma ONG piriri pororó.</div>
+                        </div>
+                        </div>
+
+                        <button class="prev prev1">&#10094;</button>
+                        <button class="next next1">&#10095;</button>
+                        <div class="descrição-geral1"></div>
+                </div>
+
+                <div class="carrosselContainerEducacao">
+                    <div class="divTituloCarrossel">
+                        <h3 class="tituloCarrossel">Educação</h3>
+                    </div>
+                    <div class="carrossel2 carrossel">
+                        <div class="elementoCarrosselDoacao2">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image1.png"></div>
+                            <div class="tituloONG">Ecotece</div>
+                            <div class="descrição">A Ecotece é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao2">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image2.png"></div>
+                            <div class="tituloONG">Instituto Lixo Zero Brasil</div>
+                            <div class="descrição">A Instituto Lixo Zero Brasil é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao2">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image3.png"></div>
+                            <div class="tituloONG">Sustentarte</div>
+                            <div class="descrição">A Sustentarte é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao2">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image4.png"></div>
+                            <div class="tituloONG">Regeneração Global</div>
+                            <div class="descrição">A Regeneração Global é uma ONG piriri pororó.</div>
+                        </div>
+                    </div>
+
+                        <button class="prev prev2">&#10094;</button>
+                        <button class="next next2">&#10095;</button>
+                        <div class="descrição-geral2"></div>
+                </div>
+
+                <div class="carrosselContainerSaude">
+                    <div class="divTituloCarrossel">
+                        <h3 class="tituloCarrossel">Saúde</h3>
+                    </div>
+                    <div class="carrossel3 carrossel">
+                        <div class="elementoCarrosselDoacao3">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image1.png"></div>
+                            <div class="tituloONG">Ecotece</div>
+                            <div class="descrição">A Ecotece é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao3">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image2.png"></div>
+                            <div class="tituloONG">Instituto Lixo Zero Brasil</div>
+                            <div class="descrição">A Instituto Lixo Zero Brasil é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao3">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image3.png"></div>
+                            <div class="tituloONG">Sustentarte</div>
+                            <div class="descrição">A Sustentarte é uma ONG piriri pororó.</div>
+                        </div>
+
+                        <div class="elementoCarrosselDoacao3">
+                            <div class="imagemCarrossel"><img src="../../assets/doacao/image4.png"></div>
+                            <div class="tituloONG">Regeneração Global</div>
+                            <div class="descrição">A Regeneração Global é uma ONG piriri pororó.</div>
+                        </div>
+                    </div>
+
+                        <button class="prev prev3">&#10094;</button>
+                        <button class="next next3">&#10095;</button>
+                        <div class="descrição-geral3"></div>
+                </div>
+        </div>
+
+        </section>
+
+        <footer>
+            <div class="parte-rodape">
+                <div class="redes">
+                <div class="imagem-central">
+                    <img src="/assets/home/logoGrande.png" alt="Imagem Central">
+                </div>
+                <div class="titulo-esquerda">
+                    <h3>Nos siga:</h3>
+                </div>
+                <div class="cinco-imagens">
+                    <a href="#"><img src="/assets/home/insta.png" alt="Instagram"></a>
+                    <a href="#"><img src="/assets/home/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="/assets/home/linkedin.png" alt="Linkedin"></a>
+                    <a href="#"><img src="/assets/home/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="/assets/home/github.png" alt="github"></a>
+                </div>
+                </div>
+            </div>
+            <div class="parte-rodape">
+                <div class="titulo-central">
+                    <h3>Sobre nós:</h3>
+                </div>
+                <div class="quatro-palavras">
+                    <a href="#">Segurança</a>
+                    <a href="#">Companhia</a>
+                    <a href="#">Documentação</a>
+                    <a href="#">Logos/Artes</a>
+                </div>
+            </div>
+            <div class="parte-rodape">
+                <div class="titulo-direita">
+                    <h3>GitHub</h3>
+                </div>
+                <div class="cinco-githubs">
+                    <a href="https://github.com/Gabisilva73">Gabriela Silva</a>
+                    <a href="https://github.com/kethlenmartins">Kethlen Martins</a>
+                    <a href="https://github.com/eularibr">Larissa Carvalho</a>
+                    <a href="https://github.com/yasmimpassos">Yasmim Passos</a>
+                </div>
+            </div>
+            <div class="parte-rodape">
+                <div class="titulo-direita">
+                    <h3>Linkedin</h3>
+                </div>
+                <div class="cinco-telefones">
+                    <a href="http://www.linkedin.com/in/gabriela-silvaa">Gabriela Silva</a>
+                    <a href="https://www.linkedin.com/in/kethlenmartins/">Kethlen Martins</a>
+                    <a href="https://www.linkedin.com/in/carvalholari/">Larissa Carvalho</a>
+                    <a href="https://www.linkedin.com/in/yasmim-passos">Yasmim Passos</a>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+                function lixozerobtn() {
+                window.location.href = "../transacao/transacao.html";
+                }
+            </script>
+
+
+        <script src="doacao.js"></script>
+    </body>
+</html>

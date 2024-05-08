@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Platform</title>
+</head>
+<body>
+    <div id="walletInfo" style="display: none;">
+        <h2>Your Wallet Information</h2>
+        <p><strong>Wallet ID:</strong> <span id="walletId"></span></p>
+        <p><strong>Address:</strong> <span id="walletAddress"></span></p>
+        <p><strong>Balance:</strong> <span id="walletBalance"></span></p>
+    </div>
+
+    <script src="api.js"></script>
+    <script>
+        // Chamar a função para criar a carteira quando a página carregar
+        window.onload = createWallet;
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Platform</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <!-- Botão para abrir o pop-up -->
+    <button id="openPopupBtn">Open Wallet Popup</button>
+
+<!-- Pop-up -->
+<!--<div id="walletPopup" class="popup">
+    <div class="popup-content">
+        <span class="close" id="closePopupBtn">&times;</span>
+        <h2>Your Wallet Information</h2>
+        <p><strong>Wallet ID:</strong> <span id="walletId"></span></p>
+        <p><strong>Address:</strong> <span id="walletAddress"></span></p>
+        <p><strong>Balance:</strong> <span id="walletBalance"></span></p> -->
+
+        <!-- Novo campo de entrada para a quantidade de tokens -->
+       <!-- <label for="tokenAmount">Enter Token Amount:</label>
+        <input type="number" id="tokenAmount" name="tokenAmount" min="1">
+
+         Novo botão para fazer o mint dos tokens
+        <button id="mintTokensBtn">Mint Tokens</button>
+    </div>
+</div> -->
+
+<!-- Pop-up -->
+<div id="walletPopup" style="display: none;">
+    <h2>Wallet</h2>
+    <p>Wallet ID: <span id="walletId"></span></p>
+    <p>Wallet Address: <span id="walletAddress"></span></p>
+    <p>Balance: <span id="walletBalance"></span></p> <!-- Adicionando o elemento para exibir o saldo -->
+    <input type="number" id="tokenAmount" placeholder="Amount">
+    <button id="mintTokensBtn">Mint Tokens</button>
+    <button id="closePopupBtn">Close</button>
+</div>
+
+
+
+    <script src="api.js"></script>
+</body>
+</html>
+

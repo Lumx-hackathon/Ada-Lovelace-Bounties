@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Texto e Título</title>
+    <link rel="stylesheet" href="creditos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/assets/perfil/Ada_Branco.png" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="../home/home.html">Home</a></li>
+                <li><a href="../doação/doacao.html">Doação</a></li>
+                <li class="home"><a href="#" class="home-a">Créditos</a></li>
+                <li><a href="../empresas/empresas.html">Empresa</a></li>
+                <li><a href="../SaibaMais/SaibaMais.html">FAQ</a></li>
+            </ul>
+            <div class="profile">
+                <img src="/assets/perfil/perfil (1) 1.png" alt="Perfil">
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <p class="left-align">Saldo atual: 1.500 pólens</p>
+        <h1 class="center">Parabéns, Renata!<br> Você acaba de ganhar 1.500 pólens <br>para prêmios diversos!</h1>
+        <div class="topic">
+            <p>Saiba como funciona</p>
+        </div>
+        <div class="container">
+            <div class="column">
+                <h2>Cenário 1</h2>
+                <div class="gray-box">
+                    <p>1. Você pode trocar todo o seu saldo atual de pontos por um cupom</p>
+                </div>
+                <h3>Recompensas que você pode ganhar com 1.500 pontos</h3>
+                <div class="gray-box-img">
+                    <div class="img">
+                    <img src="/assets/creditos/coca.png" alt="Imagem 1">
+                    <p>Em compras acima de R$100,00 ganhe R$15,00</p>
+                </div>
+                <div class="img">
+                    <img src="/assets/creditos/mec.png" alt="Imagem 2">
+                    <p>Em compras acima de R$100,00 ganhe R$15,00</p>
+                </div>
+                <div class="img">
+                    <img src="/assets/creditos/nestle.png" alt="Imagem 3">
+                    <p>Em compras acima de R$100,00 ganhe R$15,00</p>
+                </div>
+                <div class="img">
+                    <img src="/assets/creditos/png-clipart-mondelez-international-kraft-foods-company-nasdaq-mdlz-business-business-purple-food-removebg-preview 1.png" alt="Imagem 4">
+                    <p>Em compras acima de R$100,00 ganhe R$15,00</p>
+                </div>
+                </div>
+                <div class="gray-box">
+                    <p>2. Você estará concorrendo a algum cupom aleatório das marcas acima </p>
+                </div>
+                <div class="gray-box">
+                    <p>3. Esse cupom será transformado em um NFT para ser trocado direto com a marca </p>
+                </div>
+                <div class="yellow-box" onclick="openPopup()">
+                    <p>Resgatar já!</p>
+                </div>
+
+                      <!-- Pop-up -->
+    <!-- Pop-up de troca de tokens por NFTs -->
+    <div class="modal" id="exchangeModal" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid black;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Trocar Tokens por NFTs</h2>
+            <input type="number" id="tokenAmount" placeholder="Quantidade de Tokens">
+            <button id="confirmExchange" onclick="trocaNFT()">Confirmar Troca</button>
+        </div>
+    </div>
+
+            </div>
+            <div class="column">
+                <h2>Cenário 2</h2>
+                <div class="gray-box">
+                    <p>1. Você pode optar por acumular pontos e trocar por prêmios maiores </p>
+                </div>
+                <h3>Nesse caso, alguns exemplos de recompensas seria:
+                </h3>
+                <div class="gray-box-img">
+                    <div class="img2">
+                    <img src="/assets/creditos/nike.png" alt="Imagem 5">
+                    <p>A partir de 500.000 pontos ganhe um cupom de 50% em um chinelo</p>
+                </div> <div class="img2">
+                    <img src="/assets/creditos/pizzaHut.png" alt="Imagem 6">
+                    <p>A partir de 250.000 pontos ganhe um cupom de 50% na compra da segunda pizza</p>
+                </div> <div class="img2">
+                    <img src="/assets/creditos/rchlo.png" alt="Imagem 7">
+                    <p>A partir de 500.000 pontos ganhe um cupom de 30% em peças de até R$150,00</p>
+                </div>
+                </div>
+                <div class="gray-box">
+                    <p>2. Você concorrendo a algum cupom aleatório das marcas acima </p>
+                </div>
+                <div class="gray-box">
+                    <p>3. Esse cupom será transformado em um NFT para ser trocado direto com a marca </p>
+                </div>
+                <div class="yellow-box">
+                    <p>Acumular Pontos</p>
+                </div>
+            </div>
+        </div>
+        <div class="comeia1">
+            <img src="/assets/creditos/image__5_-removebg-preview 1.png" alt="comeia">
+        </div>
+        <div class="comeia2">
+            <img src="/assets/creditos/image__5_-removebg-preview 2.png" alt="comeia">
+        </div>
+    </div>
+    <footer>
+        <div class="parte-rodape">
+            <div class="redes">
+            <div class="imagem-central">
+                <img src="/assets/home/logoGrande.png" alt="Imagem Central">
+            </div>
+            <div class="titulo-esquerda">
+                <h3>Nos siga:</h3>
+            </div>
+            <div class="cinco-imagens">
+                <a href="#"><img src="/assets/home/insta.png" alt="Instagram"></a>
+                <a href="#"><img src="/assets/home/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="/assets/home/linkedin.png" alt="Linkedin"></a>
+                <a href="#"><img src="/assets/home/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="/assets/home/github.png" alt="github"></a>
+            </div>
+            </div>
+        </div>
+        <div class="parte-rodape">
+            <div class="titulo-central">
+                <h3>Sobre nós:</h3>
+            </div>
+            <div class="quatro-palavras">
+                <a href="#">Segurança</a>
+                <a href="#">Companhia</a>
+                <a href="#">Documentação</a>
+                <a href="#">Logos/Artes</a>
+            </div>
+        </div>
+        <div class="parte-rodape">
+            <div class="titulo-direita">
+                <h3>GitHub</h3>
+            </div>
+            <div class="cinco-githubs">
+                <a href="https://github.com/Gabisilva73">Gabriela Silva</a>
+                <a href="https://github.com/kethlenmartins">Kethlen Martins</a>
+                <a href="https://github.com/eularibr">Larissa Carvalho</a>
+                <a href="https://github.com/yasmimpassos">Yasmim Passos</a>
+            </div>
+        </div>
+        <div class="parte-rodape">
+            <div class="titulo-direita">
+                <h3>Linkedin</h3>
+            </div>
+            <div class="cinco-telefones">
+                <a href="http://www.linkedin.com/in/gabriela-silvaa">Gabriela Silva</a>
+                <a href="https://www.linkedin.com/in/kethlenmartins/">Kethlen Martins</a>
+                <a href="https://www.linkedin.com/in/carvalholari/">Larissa Carvalho</a>
+                <a href="https://www.linkedin.com/in/yasmim-passos">Yasmim Passos</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../back-end/api.js"></script>
+    <script>
+    function openPopup() {
+    document.getElementById('exchangeModal').style.display = 'block';
+}
+    function voltar() {
+    window.location.href = "../doação/creditos.html";
+    }
+
+    document.getElementById('confirmExchange').addEventListener('click', function() {
+    // Chamar a função para fazer o mint de tokens
+    // Exibir um alerta quando o botão for clicado
+    alert('Você acabou de receber um Néctar!.');
+});
+    </script>
+</body>
+</html>
+ 

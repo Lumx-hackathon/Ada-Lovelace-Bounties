@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Usuário</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="cadastro_ong.css">
+<div class="login-wrapper">
+    <div class="login-info">
+      <div class="logo">
+        <img src="/assets/login/Logo_Ada_Transparente.png" alt="Logo">
+      </div>
+    </div>
+    <div class="login-form">
+    <div class="texto_login">Faça o cadastro da sua ONG</div>
+      <input type="usuario" placeholder="Razão social">
+      <input type="email" placeholder="CNPJ">
+      <input type="password" placeholder="Área de atuação">
+      <input type="porte" placeholder="Porte">
+      <div class="senha">
+        <textarea id="senha" name="senha" placeholder="Digite sua senha"></textarea>
+        </div>
+      <button (click)="navigateToAbout()" class="login-btn">Entrar</button>
+    </div>
+  </div>
+</body>
+</html>

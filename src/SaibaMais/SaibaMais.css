@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo img {
+    width: 60px; /* Ajuste conforme necessário */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home-a{
+    color:#000000;
+}
+
+.home{
+    background-color: #EAC222; /* Cor de fundo amarela */
+    padding: 12px 0px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+.profile img {
+    width: 40px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para criar uma imagem circular */
+}
+
+/* Adicionando espaçamento entre as palavras nos links */
+ul li a {
+    padding: 0 50px; /* Adicionando padding para criar espaço entre as palavras */
+}
+.frase_inicial{
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-size: 40px;
+    margin-left: 670px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.favo_img img{
+    margin-left: 160px;
+    margin-top: -230px;
+    width: 400px;
+}
+.fundo_preto {
+    background-color: #303030;
+    height: 635px;
+    margin-top: -30px;
+}
+
+.quem_somos {
+    color: #fff;
+    margin-left: 180px;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: -605px;
+}
+.quem_somos_text {
+    color: #fff;
+    margin-left: 180px;
+    text-align:justify;
+    margin-right: 180px;
+    font-weight: 600px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.nossa_tecnologia {
+    color: #fff;
+    margin-right: 180px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+
+.tres-containers {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+} 
+
+.container-chumbo {
+        flex: 1;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 20px; /* Espaçamento entre os blocos */
+        margin-left: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column; /* Alinha os itens verticalmente */
+    background-color: #EAC222;
+}
+
+.texto-container h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #000000;
+    text-align: center;
+}
+
+.linha-preta {
+    /* Largura total da linha */
+   height: 2px; /* largura da linha */
+   background-color: #000; /* Cor preta */
+   margin-left: 25px;
+   margin-right: 25px;
+   width: auto;
+}
+
+.texto-container p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.fundo_branco {
+    background-color: #fff;
+    height: 720px;
+}
+
+.fundo_branco2 {
+    background-color: #fff;
+    height: 100px;
+}
+
+.container_faq {
+    width: 250px;
+    height: 50px;
+    background-color: #EAC222;
+    margin-left: -20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: "Inter" sans-serif;
+    margin-top: 40px;
+    font-weight: bold;;
+}
+
+.text_faq {
+    margin-top: 6px;
+    font-size: 36px;
+}
+
+.perguntas {
+    font-size: 32px;
+    margin-top: -600px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid black; 
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 1130px;;
+  }
+
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .dropdown-content p {
+    margin: 0;
+  }
+
+  .empresa {
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+
+  .ONG {
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+
+  .Doador {
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Estilos para cada parte do rodapé */
+.parte-rodape {
+    flex: 1;
+    text-align: center;
+}
+/* Estilos para a imagem central */
+.imagem-central img {
+    width: 180px; /* Ajuste conforme necessário */
+}
+/* Estilos para os títulos */
+.titulo-esquerda h3{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 92px;
+}
+.titulo-central h3,
+.titulo-direita h3 {
+    margin-top: 40px;
+}
+/* Estilos para as imagens e links */
+.cinco-imagens img {
+    width: 30px; /* Ajuste conforme necessário */
+    margin: 5px;
+}
+.quatro-palavras a,
+.cinco-telefones a {
+    display: block;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para cada parte do rodapé */
+.parte-rodape {
+    flex: 1;
+    text-align: center;
+}
+
+/* Estilos para a imagem central */
+.imagem-central img {
+    width: 180px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para os títulos */
+.titulo-esquerda h3{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 92px;
+}
+
+.titulo-central h3,
+.titulo-direita h3 {
+    margin-top: 40px;
+}
+
+/* Estilos para as imagens e links */
+.cinco-imagens img {
+    width: 30px; /* Ajuste conforme necessário */
+    margin: 5px;
+}
+
+.quatro-palavras a,
+.cinco-telefones a, .cinco-githubs a {
+    display: block;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px 0;
+}

@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 60px; /* Ajuste conforme necessário */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile img {
+    width: 40px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para criar uma imagem circular */
+}
+
+/* Adicionando espaçamento entre as palavras nos links */
+nav ul li a {
+    padding: 0 50px; /* Adicionando padding para criar espaço entre as palavras */
+}
+
+.main-content {
+    display: flex;
+}
+
+
+.split-container {
+    display: flex;
+}
+
+.split-left {
+    flex: 1; /* A primeira parte ocupará 50% da largura */
+    background-color: #D9D9D9; /* Cor de fundo da parte esquerda */
+}
+
+.split-right {
+    flex: 1; /* A segunda parte ocupará 50% da largura */
+    background-color: #EDEDED; /* Cor de fundo da parte direita */
+}
+
+  
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .login-form p{
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .login-form h1{
+    margin-left: 290px;
+    margin-bottom: 70px;
+  }
+
+  .topo{
+    align-items: center;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    background-color: #B9B6B6;
+    width: auto; /* Adjusted width */
+    padding: 15px;
+    margin-bottom: 19px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .botoes{
+    margin-top: 60px;
+    display:flex;
+  }
+  
+   .botao_salvar{
+    flex: 1;
+    margin-left: 40px;
+    background-color: #EAC222;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: auto; /* Match the input fields width */
+     border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 50px;
+  } 
+
+  .login-btn1 {
+    flex: 1;
+    background-color: #B9B6B6;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+
+  .login-btn2 {
+    flex: 1;
+    background-color: #EAC222;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+
+  .botao_editar{
+    flex: 1;
+    margin-right: 40px;
+    background-color: #B9B6B6;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: auto; /* Match the input fields width */
+     border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+.endereco_carteira{
+    margin-right: -100px;
+    margin-top: 20px;
+}
+
+.address {
+    margin-right: -200px;
+    color: #797979;
+}
+
+.renata{
+    margin-top: 20px;
+    display: flex;
+}
+
+.renata img {
+    width: 80px;
+    height: 80px;
+    margin-left: 100px; /* Mantendo a margem esquerda */
+}
+
+.renata h1 {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 16;
+}
+
+.linha-preta {
+     /* Largura total da linha */
+    height: 2px; /* largura da linha */
+    background-color: #000; /* Cor preta */
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-top: 0px;
+    width: 280px;
+}
+
+.valores{
+    align-items: center;
+    text-align: center;
+}
+
+.quantia {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.tem {
+    margin-top: 40px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 18px; /* Defina o tamanho da fonte desejado */
+}
+
+.botao_troque {
+    flex: 1;
+    background-color: #EAC222;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: 200px; /* Match the input fields width */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.divtituloCarrossel{
+    flex: 1;
+    background-color: #B9B6B6;
+    color: #000000;
+    border: none;
+    padding: 15px;
+    width: 200px; /* Match the input fields width */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .tituloCarrossel {
+    flex: 1;
+    background-color: #B9B6B6;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+.divbotaoCarrossel1{
+    margin-left: 50px;
+    margin-top: 180px;
+    margin-bottom: 200px;
+    width: 130px;
+    background-color: #EAC222;
+    height: 20px;
+    border-radius: 10px;
+    display: flex; /* Adiciona display flex para alinhar o texto */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Alinha horizontalmente o conteúdo */
+    font-size: 15px; /* Defina o tamanho da fonte desejado */
+    padding: 5px; /* Adiciona espaço interno para separar o texto das bo */
+}
+.divbotaoCarrossel2{
+    margin-left: 50px;
+    margin-top: 180px;
+    margin-bottom: 18px;
+    width: 130px;
+    background-color: #EAC222;
+    height: 20px;
+    border-radius: 10px;
+    display: flex; /* Adiciona display flex para alinhar o texto */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Alinha horizontalmente o conteúdo */
+    font-size: 15px; /* Defina o tamanho da fonte desejado */
+    padding: 5px; /* Adiciona espaço interno para separar o texto das bo */
+}
+
+.divbotaoCarrossel3{
+    margin-left: 50px;
+    margin-top: 180px;
+    margin-bottom: 200px;
+    width: 130px;
+    background-color: #EAC222;
+    height: 20px;
+    border-radius: 10px;
+    display: flex; /* Adiciona display flex para alinhar o texto */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Alinha horizontalmente o conteúdo */
+    font-size: 15px; /* Defina o tamanho da fonte desejado */
+    padding: 5px; /* Adiciona espaço interno para separar o texto das bo */
+}
+
+.divbotaoCarrossel4{
+    margin-left: 50px;
+    margin-top: 180px;
+    margin-bottom: 200px;
+    width: 130px;
+    background-color: #EAC222;
+    height: 20px;
+    border-radius: 10px;
+    display: flex; /* Adiciona display flex para alinhar o texto */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center; /* Alinha horizontalmente o conteúdo */
+    font-size: 15px; /* Defina o tamanho da fonte desejado */
+    padding: 5px; /* Adiciona espaço interno para separar o texto das bo */
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+}
+  /* .login-btn:hover { 
+    background: #ffda48;
+  } */
+
+  .carrosselContainerAlimenticio {
+    overflow: hidden;
+    padding: 0px 0; /* Adiciona espaço nas laterais */
+    margin: 20px 20px; /* Adiciona espaço acima e abaixo */
+    position: relative;
+}
+
+.carrossel1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carrossel1{
+    display: flex;
+    background-color: #b9b6b6; /* Cor de fundo */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    padding: 1px 1px; /* Adiciona espaço interno */
+    overflow-x: auto; /* Habilita scroll horizontal */
+    margin: 10px 10px 20px 20px; /* Remove as margens para evitar ultrapassar a tela */
+    width: 590px; /* Subtrai 40px para levar em conta as margens */
+}
+
+.elementoCarrosselEmpresas1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 7px 7px 3px 3px;
+}
+
+.elementoCarrosselEmpresas1 img{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+    margin: 10px;
+}
+
+.imagemCarrossel {
+    background-color: #d9d9d9;
+    padding: 5px;
+    width:155px;
+    height: 160px;
+    border-radius: 10px;
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: center;
+    display: flex;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute; /* Adiciona posicionamento absoluto */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+.descrição-geral1 {
+    display: none;
+    text-align: center;
+    margin-top: 20px; /* Adiciona espaço entre o carrossel e a descrição geral */
+}
+
+.descrição {
+    display: none;
+}
+
+.tituloPagina {
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 45px;
+}
+
+.tituloCarrossel {
+    margin-left: 20px;
+}
+
+.divTituloCarrossel {
+    margin-left: 20px;
+    width: 200px;
+    background-color: #EAC222;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex; /* Adiciona display flex para alinhar o texto */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    /*justify-content: center; /* Alinha horizontalmente o conteúdo */
+    font-size: 25px; /* Defina o tamanho da fonte desejado */
+    padding: 5px; /* Adiciona espaço interno para separar o texto das bordas */
+}
+
+.tituloONG {
+    width: 155px;
+    background-color: #d9d9d9;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

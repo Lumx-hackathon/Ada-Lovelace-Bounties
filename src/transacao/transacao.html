@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Título com Destaque</title>
+<link rel="stylesheet" type="text/css" href="transacao.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/assets/perfil/Ada_Branco.png" alt="Logo">
+            </div>
+            <ul>
+            </ul>
+            <div class="profile">
+                <img src="/assets/perfil/perfil (1) 1.png" alt="Perfil">
+            </div>
+        </nav>
+    </header>
+  <div class="container">
+    <div class="voltar">
+        <img onclick="voltar()" src="/assets/doacao/icone_voltar.png" alt="Voltar" class="voltar">
+    </div>
+    <div class="title">
+        Doação  para: <span class="highlight">Instituto Lixo Zero Brasil</span>
+    </div>
+    <div class="description">
+        O Instituto Lixo Zero Brasil é uma organização que busca promover a conscientização e ações práticas para reduzir a quantidade de resíduos produzidos e descartados de maneira inadequada no Brasil. Possui a visão de construir um país onde resíduos sejam tratados como recursos e não como lixo, trabalha em diversas frentes para alcançar esse objetivo.
+    </div>
+  </div>
+
+  <div class="gray-container">
+    <div class="gray-box">
+      <h2>Escolha sua quantia</h2>
+      <p>Valor</p>
+      <input type="text" id="quantia" placeholder="Digite um número">
+      <p class="number-text">Selecione uma quantia</p>
+      <img src="https://via.placeholder.com/150" alt="Imagem" class="number-image">
+    </div>
+    <div class="gray-box">
+      <h2>Confirme</h2>
+      <p>ONG</p>
+      <input type="text" id="nome_ong" placeholder="Nome da ONG">
+      <p>Valor</p>
+      <input type="text" id="valor" placeholder="Valor">
+    </div>
+    <div class="gray-box">
+      <h2>Envie</h2>
+      <button id="enviar" onclick="openPopup()" disabled>Enviar</button>
+      <p>Após o envio, você receberá uma confirmação com seu token e a loja em que poderá usá-lo.</p>
+    </div>
+  </div>
+
+      <!-- Pop-up -->
+      <div id="walletPopup" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid black;">
+        <h2>Complete sua doação e ganhe sua recompensa</h2>
+        <p>Sua Wallet ID: <span id="walletId"></span></p>
+        <textarea id="walletID" placeholder="Wallet ID"></textarea>
+        <button id="mintTokensBtn">Receba seus pólens</button>
+        <button id="closePopupBtn" onclick="doar()">Fechar</button>
+    </div>
+
+  <footer>
+    <div class="parte-rodape">
+        <div class="redes">
+        <div class="imagem-central">
+            <img src="/assets/home/logoGrande.png" alt="Imagem Central">
+        </div>
+        <div class="titulo-esquerda">
+            <h3>Nos siga:</h3>
+        </div>
+        <div class="cinco-imagens">
+            <a href="#"><img src="/assets/home/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="/assets/home/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/assets/home/linkedin.png" alt="Linkedin"></a>
+            <a href="#"><img src="/assets/home/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="/assets/home/github.png" alt="github"></a>
+        </div>
+        </div>
+    </div>
+    <div class="parte-rodape">
+        <div class="titulo-central">
+            <h3>Sobre nós:</h3>
+        </div>
+        <div class="quatro-palavras">
+            <a href="#">Segurança</a>
+            <a href="#">Companhia</a>
+            <a href="#">Documentação</a>
+            <a href="#">Logos/Artes</a>
+        </div>
+    </div>
+    <div class="parte-rodape">
+        <div class="titulo-direita">
+            <h3>GitHub</h3>
+        </div>
+        <div class="cinco-githubs">
+            <a href="https://github.com/Gabisilva73">Gabriela Silva</a>
+            <a href="https://github.com/kethlenmartins">Kethlen Martins</a>
+            <a href="https://github.com/eularibr">Larissa Carvalho</a>
+            <a href="https://github.com/yasmimpassos">Yasmim Passos</a>
+        </div>
+    </div>
+    <div class="parte-rodape">
+        <div class="titulo-direita">
+            <h3>Linkedin</h3>
+        </div>
+        <div class="cinco-telefones">
+            <a href="http://www.linkedin.com/in/gabriela-silvaa">Gabriela Silva</a>
+            <a href="https://www.linkedin.com/in/kethlenmartins/">Kethlen Martins</a>
+            <a href="https://www.linkedin.com/in/carvalholari/">Larissa Carvalho</a>
+            <a href="https://www.linkedin.com/in/yasmim-passos">Yasmim Passos</a>
+        </div>
+    </div>
+</footer>
+
+<script src="../../back-end/api.js"></script>
+<script>
+    // Função para verificar se todos os campos estão preenchidos
+    function verificarPreenchimento() {
+        var quantia = document.getElementById("quantia").value;
+        var nomeOng = document.getElementById("nome_ong").value;
+        var valor = document.getElementById("valor").value;
+
+        // Habilita o botão de envio se todos os campos estiverem preenchidos
+        if (quantia !== "" && nomeOng !== "" && valor !== "") {
+            document.getElementById("enviar").disabled = false;
+        } else {
+            document.getElementById("enviar").disabled = true;
+        }
+    }
+
+    function openPopup() {
+    document.getElementById('walletPopup').style.display = 'block';
+}
+
+    // Associar evento ao botão "Mint Tokens"
+    document.getElementById('mintTokensBtn').addEventListener('click', function() {
+    // Chamar a função para fazer o mint de tokens
+    // Exibir um alerta quando o botão for clicado
+    alert('Os pólens foram recebidos e já estão na sua wallet.');
+});
+
+    // Adiciona um evento de escuta para cada campo de entrada
+    document.getElementById("quantia").addEventListener("input", verificarPreenchimento);
+    document.getElementById("nome_ong").addEventListener("input", verificarPreenchimento);
+    document.getElementById("valor").addEventListener("input", verificarPreenchimento);
+
+    function voltar() {
+    window.location.href = "../doação/doacao.html";
+    }
+
+    function doar() {
+    window.location.href = "../creditos/creditos.html";
+    }
+</script>

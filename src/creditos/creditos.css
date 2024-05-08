@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo img {
+    width: 60px; /* Ajuste conforme necessário */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+.home-a{
+    color:#000000;
+}
+
+.home{
+    background-color: #EAC222; /* Cor de fundo amarela */
+    padding: 12px 0px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+.profile img {
+    width: 40px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para criar uma imagem circular */
+}
+
+/* Adicionando espaçamento entre as palavras nos links */
+ul li a {
+    padding: 0 50px; /* Adicionando padding para criar espaço entre as palavras */
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.left-align {
+    text-align: left;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.topic {
+    text-align: left;
+    background-color: #EAC222; /* Cor de fundo amarela */
+    padding-left: 40px;
+    width: 450px;
+    height: 60px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-left: -10px;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    white-space: nowrap;
+}
+
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.column h3{
+    margin-top: 60px;
+    text-align: left;
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+.gray-box {
+    background-color: #B9B6B6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.yellow-box {
+    background-color: #EAC222;
+    padding: 3px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.yellow-box p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.img {
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.img img{
+    width: 100px;
+    height: auto;
+    flex:1;
+    align-items: left;
+}
+
+
+.img2 {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.img2 img{
+    width: 90px;
+    height: auto;
+    flex:1;
+    align-items: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.gray-box p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.gray-box-img p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.gray-box-img {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.gray-box img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comeia1{
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* Centraliza verticalmente */
+    left: -5%; /* Centraliza horizontalmente */
+    transform: translate(-5%, 50%); /* Corrige o deslocamento para o centro */
+}
+
+.comeia2{
+    position: absolute; /* Posicionamento absoluto */
+    top: 10%; /* Centraliza verticalmente */
+    left: 53.8%; /* Centraliza horizontalmente */
+    transform: translate(53.8%, 10%); /* Corrige o deslocamento para o centro */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para cada parte do rodapé */
+.parte-rodape {
+    flex: 1;
+    text-align: center;
+}
+
+/* Estilos para a imagem central */
+.imagem-central img {
+    width: 180px; /* Ajuste conforme necessário */
+}
+
+/* Estilos para os títulos */
+.titulo-esquerda h3{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 92px;
+}
+
+.titulo-central h3,
+.titulo-direita h3 {
+    margin-top: 40px;
+}
+
+/* Estilos para as imagens e links */
+.cinco-imagens img {
+    width: 30px; /* Ajuste conforme necessário */
+    margin: 5px;
+}
+
+.quatro-palavras a,
+.cinco-telefones a, .cinco-githubs a {
+    display: block;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px 0;
+}
