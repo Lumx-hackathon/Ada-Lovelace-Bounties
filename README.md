@@ -14,7 +14,7 @@ Yasmim Passos
 
 ### 1. **Introdução**
     
-&nbsp;&nbsp;&nbsp;&nbsp;Neste documento, o desenvolvimento e aplicação da solução desenvolvida pelo grupo Ada Lovelace no hackathon lumx.io sobre Blockchain e web3 serão abordados para que a ideia e importância do projeto PólenChain seja explicada. Para o primeiro contato, destaca-se que o projeto é uma plataforma com aplicação da tecnologia blockchain que conecta doadores, ONGs e empresas por meio de doações às ONGs com fornecimento de cupons de descontos para os doadores que devem ser resgatados em forma de NFT pelo doador e utilizando o pólen (token da PólenChain) nas lojas das empresas parceiras da plataforma.
+&nbsp;&nbsp;&nbsp;&nbsp;Neste documento, o desenvolvimento e aplicação da solução desenvolvida pelo grupo Ada Lovelace no hackathon lumx.io sobre Blockchain e web3 serão abordados para que a ideia e importância do projeto PólenChain seja explicada para a trilha da scroll. Para o primeiro contato, destaca-se que o projeto é uma plataforma com aplicação da tecnologia blockchain que conecta doadores, ONGs e empresas por meio de doações às ONGs com fornecimento de cupons de descontos para os doadores que devem ser resgatados em forma de NFT pelo doador e utilizando o pólen (token da PólenChain) nas lojas das empresas parceiras da plataforma.
     
 ### 2. **Problema**
     
