@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página com Texto e Título</title>
     <link rel="stylesheet" href="creditos.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.2/dist/ethers.umd.min.js"></script>
 </head>
 <body>
     <header>
@@ -61,20 +62,9 @@
                 <div class="gray-box">
                     <p>3. Esse cupom será transformado em um NFT para ser trocado direto com a marca </p>
                 </div>
-                <div class="yellow-box" onclick="openPopup()">
+                <div class="yellow-box" id="resgatarBtn">
                     <p>Resgatar já!</p>
                 </div>
-
-                      <!-- Pop-up -->
-    <!-- Pop-up de troca de tokens por NFTs -->
-    <div class="modal" id="exchangeModal" style="display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid black;">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Trocar Tokens por NFTs</h2>
-            <input type="number" id="tokenAmount" placeholder="Quantidade de Tokens">
-            <button id="confirmExchange" onclick="trocaNFT()">Confirmar Troca</button>
-        </div>
-    </div>
 
             </div>
             <div class="column">
@@ -167,11 +157,10 @@
         </div>
     </footer>
 
+    <script src="app.js"></script>
     <script src="../../back-end/api.js"></script>
     <script>
-    function openPopup() {
-    document.getElementById('exchangeModal').style.display = 'block';
-}
+  
     function voltar() {
     window.location.href = "../doação/creditos.html";
     }
