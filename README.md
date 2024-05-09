@@ -37,22 +37,27 @@ Yasmim Passos
 **5. Value Proposition Canvas**
 
 O Value proposition Canvas é uma ferramenta que permite a análise do usuário do produto por meio do entendimento de suas dores, de suas tarefas no momento, como a solução proposta pode aliviar suas dores e possibilitar ganhos dentro da situação, etc. Por meio dessa análise, a tomada de decisões passa a ser mais estratégica e focada na necessidade do público-alvo, agregando valor ao produto e à empresa.
+<div align="center">
+Figura X - Value Proposition Canvas
 
-                                                  Figura X - Value Proposition Canvas
+<img src="/assets/CANVASOFC.png">
 
-[https://lh7-us.googleusercontent.com/dXleMnmkDAGkfDSB-vvcP4ikBpazKdRjUdzbABnr5gxNpPYIDEdIz0eUSrk-m7DC9P5hkIBU1qRRDBgcDx-UR0R4-eaoWv08moEM-lCxcDU0wExBVxSfMwXsxXZdZ-yBU_s6z_of9DahtvBUps0REGE](https://lh7-us.googleusercontent.com/dXleMnmkDAGkfDSB-vvcP4ikBpazKdRjUdzbABnr5gxNpPYIDEdIz0eUSrk-m7DC9P5hkIBU1qRRDBgcDx-UR0R4-eaoWv08moEM-lCxcDU0wExBVxSfMwXsxXZdZ-yBU_s6z_of9DahtvBUps0REGE)
-
-                                            Fonte: material produzido pelas autoras (2024)
-
+ Fonte: material produzido pelas autoras (2024)
+</div>
 Tendo em vista as dores do cliente, compreende-se que a PólenChain destaca-se por oferecer transparência total no processo de doação ao conectar doadores, ONGs e empresas, garantindo uma cultura financeira sustentável e significativa, eliminando preocupações sobre a efetividade das doações e fortalecendo a confiança dos doadores.	 Além disso, a plataforma oferece incentivos concretos direcionados aos valores das doações através da geração de cupons de desconto nas empresas parceiras da PólenChain, promovendo uma cultura de doação contínua e gerando o engajamento dos clientes e apoio para as ONGs parceiras. A partir das doações realizadas, o doador recebe uma determinada quantidade de Pólen (Criptoativo da PólenChain) e ele terá a possibilidade de acumular para comprar um cupom ou gastar seus pólens instantaneamente em algum cupom já disponível.
 
 **6. Análise SWOT**
 
 A análise SWOT é uma ferramenta de gestão que examina os pontos fortes (strengths), fraquezas (weaknesses), oportunidades (opportunities) e ameaças (threats) de um projeto, empresa ou situação. Essa análise proporciona uma compreensão abrangente do ambiente interno e externo, permitindo a identificação de fatores críticos para o sucesso e desafios a serem superados.
 
-[https://lh7-us.googleusercontent.com/4DDJbzjQUn2ninZomxsM1E6dJrIWhKrAJj-6drvlMAKi2uggi2XXuh3mH6E8lW_baUwBKQcOMgGt0Lwlu-OCaK0T5nYYi7-XyXZB6nmAmmE_Xd_fUswK0kCt4ji1QjzqilqkB5eErAe9skqxWjFjFk4](https://lh7-us.googleusercontent.com/4DDJbzjQUn2ninZomxsM1E6dJrIWhKrAJj-6drvlMAKi2uggi2XXuh3mH6E8lW_baUwBKQcOMgGt0Lwlu-OCaK0T5nYYi7-XyXZB6nmAmmE_Xd_fUswK0kCt4ji1QjzqilqkB5eErAe9skqxWjFjFk4)
 
-                                         Fonte: material produzido pelas autoras (2024)
+<div align="center">
+
+Figura X - Análise SWOT
+<img src="/assets/SWOTOFC.png">
+
+Fonte: material produzido pelas autoras (2024)
+</div>
 
 **Forças**    
 
@@ -82,25 +87,26 @@ A análise SWOT é uma ferramenta de gestão que examina os pontos fortes (stren
 
 As personas são representações fictícias de usuários reais, auxiliando na compreensão das necessidades e comportamentos do público-alvo. Seus objetivos incluem orientar o desenvolvimento de produtos, melhorar a experiência do usuário e garantir a relevância da solução no mercado. Dentro de um projeto, as personas desempenham um papel fundamental, fornecendo uma compreensão mais profunda dos usuários e orientando decisões informadas, resultando em produtos mais alinhados com as expectativas do público-alvo.
 
-                                                         FIGURA X - Felipe “doador”
+<div align="center">
+FIGURA X - Felipe “doador”
 
-![felipecerto.png](Readme%20-%20Projeto%20Plataforma%20Pole%CC%81nChain%2008935e38cae9409daac80753711c647d/felipecerto.png)
+<img src="assets/felipecerto.png">
 
-                                          Fonte: material produzido pelas autoras (2024)
+ Fonte: material produzido pelas autoras (2024)
 
-                                   FIGURA X - Camila Santos “representante da empresa”
+ FIGURA X - Camila Santos “representante da empresa”
 
-![CAMILACERTA.png](Readme%20-%20Projeto%20Plataforma%20Pole%CC%81nChain%2008935e38cae9409daac80753711c647d/CAMILACERTA.png)
+<img src="assets/CAMILACERTA.png">
 
-                                          Fonte: material produzido pelas autoras (2024)            
+Fonte: material produzido pelas autoras (2024)            
 
-                 
+FIGURA X - Maria costa “representante da ONG”
 
-                                   FIGURA X - Maria costa “representante da ONG”
+<img src="assets/Doador (1).png">
+                                            
+Fonte: material produzido pelas autoras (2024)
 
-![MARIACERTA.png](Readme%20-%20Projeto%20Plataforma%20Pole%CC%81nChain%2008935e38cae9409daac80753711c647d/MARIACERTA.png)
-
-                                               Fonte: material produzido pelas autoras (2024)
+</div>
 
 Observa-se por meio de cada template que o “Felipe Doador” representa um doador à procura de um site confiável para fazer doações onlines com segurança e transparência dos processos financeiros dentro da ONG. Já a Camila santos representa uma gerente de marketing de uma grande empresa e busca parcerias estratégicas para fidelizar e engajar seus clientes, e a Maria Costa representa uma coordenadora de projetos dentro de uma ONG de proteção animal e busca encontrar recursos financeiros.
 
