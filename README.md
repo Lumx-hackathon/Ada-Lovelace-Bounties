@@ -90,19 +90,19 @@ Fonte: material produzido pelas autoras (2024)
 <div align="center">
 FIGURA X - Felipe “doador”
 
-<img src="assets/felipecerto.png">
+<img src="/assets/felipecerto.png">
 
  Fonte: material produzido pelas autoras (2024)
 
  FIGURA X - Camila Santos “representante da empresa”
 
-<img src="assets/CAMILACERTA.png">
+<img src="/assets/CAMILACERTA.png">
 
 Fonte: material produzido pelas autoras (2024)            
 
 FIGURA X - Maria costa “representante da ONG”
 
-<img src="assets/Doador (1).png">
+<img src="/assets/Doador (1).png">
                                             
 Fonte: material produzido pelas autoras (2024)
 
